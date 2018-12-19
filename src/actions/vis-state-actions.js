@@ -172,11 +172,12 @@ export function onLayerHover(info) {
   };
 }
 
-export function onLayerClick(info) {
+export function onLayerClick(info) { 
+  alert("Hi");
   return {
     type: ActionTypes.LAYER_CLICK,
     info
-  };
+  }; 
 }
 
 export function onMapClick() {
