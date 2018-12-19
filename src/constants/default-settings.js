@@ -41,7 +41,7 @@ import {
   CursorClick
 } from 'components/common/icons';
 
-export const KEPLER_GL_NAME = 'truekepler.gl';
+export const KEPLER_GL_NAME = 'True Analytics';
 export const KEPLER_GL_VERSION = 'v1.0';
 export const KEPLER_GL_WEBSITE = 'http://kepler.gl/#/';
 

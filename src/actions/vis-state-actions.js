@@ -173,7 +173,7 @@ export function onLayerHover(info) {
 }
 
 export function onLayerClick(info) { 
-  alert("Hi");
+  alert("info="+info);
   return {
     type: ActionTypes.LAYER_CLICK,
     info
